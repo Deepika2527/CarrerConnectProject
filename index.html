@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerConnect</title>
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar starts here -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+
+    <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand fw-bold" href="index.html">
+            CareerConnect
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/jobs.html">
+                        Jobs
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/courses.html">
+                        Courses
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/about.html">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- Authentication Buttons -->
+            <div class="d-flex gap-2">
+
+                <a href="pages/login.html" class="btn btn-outline-primary">
+                    Login
+                </a>
+
+                <a href="pages/signup.html" class="btn btn-primary">
+                    Sign Up
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+
+<!-- Hero Section begins -->
+
+<section class="hero-section">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- Hero Content -->
+            <div class="col-lg-6">
+
+                <span class="hero-badge">
+                    Build Your Future With CareerConnect
+                </span>
+
+                <h1 class="hero-title">
+                    Find Jobs, Build Skills,
+                    <span>Grow Your Career</span>
+                </h1>
+
+                <p class="hero-text">
+                    Explore job opportunities and industry-ready
+                    courses to take the next step in your career.
+                </p>
+
+
+                <!-- Search -->
+                <form class="hero-search">
+
+                    <input
+                        type="search"
+                        class="form-control"
+                        placeholder="Search jobs, courses or skills..."
+                    >
+
+                    <button type="submit" class="btn btn-primary">
+                        Search
+                    </button>
+
+                </form>
+
+
+                <!-- CTA Buttons -->
+                <div class="hero-buttons">
+
+                    <a href="pages/jobs.html"
+                       class="btn btn-primary">
+                        Browse Jobs
+                    </a>
+
+                    <a href="pages/courses.html"
+                       class="btn btn-outline-primary">
+                        Explore Courses
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero Image -->
+            <div class="col-lg-6">
+
+                <div class="hero-image-wrapper">
+
+                    <img
+                        src="/assets/Images/hero-student.png"
+                        alt="Student exploring career opportunities"
+                        class="hero-image"
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Statistics Section -->
+
+<section class="stats-section">
+
+    <div class="container">
+
+        <div class="row text-center">
+
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <h2>10,000+</h2>
+                    <p>Students</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <h2>500+</h2>
+                    <p>Hiring Partners</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <h2>250+</h2>
+                    <p>Industry Courses</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="stat-item">
+                    <h2>95%</h2>
+                    <p>Placement Success</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Featured Jobs Section -->
+
+<section class="featured-jobs">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="section-heading text-center">
+
+            <span class="section-badge">
+                Career Opportunities
+            </span>
+
+            <h2>
+                Featured Jobs
+            </h2>
+
+            <p>
+                Explore the latest opportunities from
+                leading companies.
+            </p>
+
+        </div>
+
+
+        <!-- Job Cards -->
+
+        <div class="row g-4">
+
+            <!-- Job 1 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="job-card">
+
+                    <div class="job-card-header">
+
+                        <div class="company-logo">
+                            TN
+                        </div>
+
+                        <span class="job-type">
+                            Full Time
+                        </span>
+
+                    </div>
+
+                    <h3>Frontend Developer</h3>
+
+                    <p class="company-name">
+                        TechNova Solutions
+                    </p>
+
+                    <div class="job-info">
+
+                        <span>📍 Hyderabad</span>
+
+                        <span>💰 ₹5–8 LPA</span>
+
+                    </div>
+
+                    <div class="job-card-footer">
+
+                        <span>2 days ago</span>
+
+                        <a href="pages/job-details.html"
+                           class="btn btn-outline-primary">
+                            View Job
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Job 2 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="job-card">
+
+                    <div class="job-card-header">
+
+                        <div class="company-logo">
+                            DS
+                        </div>
+
+                        <span class="job-type">
+                            Full Time
+                        </span>
+
+                    </div>
+
+                    <h3>Python Developer</h3>
+
+                    <p class="company-name">
+                        DataSoft Technologies
+                    </p>
+
+                    <div class="job-info">
+
+                        <span>📍 Bengaluru</span>
+
+                        <span>💰 ₹6–10 LPA</span>
+
+                    </div>
+
+                    <div class="job-card-footer">
+
+                        <span>4 days ago</span>
+
+                        <a href="pages/job-details.html"
+                           class="btn btn-outline-primary">
+                            View Job
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Job 3 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="job-card">
+
+                    <div class="job-card-header">
+
+                        <div class="company-logo">
+                            CL
+                        </div>
+
+                        <span class="job-type">
+                            Full Time
+                        </span>
+
+                    </div>
+
+                    <h3>UI/UX Designer</h3>
+
+                    <p class="company-name">
+                        CreativeLabs
+                    </p>
+
+                    <div class="job-info">
+
+                        <span>📍 Pune</span>
+
+                        <span>💰 ₹4–7 LPA</span>
+
+                    </div>
+
+                    <div class="job-card-footer">
+
+                        <span>1 week ago</span>
+
+                        <a href="pages/job-details.html"
+                           class="btn btn-outline-primary">
+                            View Job
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- View All Jobs -->
+
+        <div class="text-center mt-5">
+
+            <a href="pages/jobs.html"
+               class="btn btn-primary">
+                View All Jobs
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Featured Courses Section -->
+
+<section class="featured-courses">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="section-heading text-center">
+
+            <span class="section-badge">
+                Learn & Grow
+            </span>
+
+            <h2>
+                Featured Courses
+            </h2>
+
+            <p>
+                Build industry-ready skills with practical
+                courses designed for your career.
+            </p>
+
+        </div>
+
+
+        <!-- Course Cards -->
+
+        <div class="row g-4">
+
+            <!-- Course 1 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="course-card">
+
+                    <img
+                        src="/assets/Images/fullstack-course.jpeg"
+                        alt="Full Stack Web Development course"
+                        class="course-image"
+                    >
+
+                    <div class="course-content">
+
+                        <span class="course-category">
+                            Web Development
+                        </span>
+
+                        <h3>
+                            Full Stack Web Development
+                        </h3>
+
+                        <p>
+                            Learn HTML, CSS, JavaScript,
+                            Bootstrap and backend development.
+                        </p>
+
+                        <div class="course-meta">
+
+                            <span>⭐ 4.8</span>
+
+                            <span>12 Weeks</span>
+
+                        </div>
+
+                        <div class="course-footer">
+
+                            <strong>
+                                ₹12,999
+                            </strong>
+
+                            <a
+                                href="pages/course-details.html"
+                                class="btn btn-primary"
+                            >
+                                View Course
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Course 2 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="course-card">
+
+                    <img
+                        src="/assets/Images/python-course.jpg"
+                        alt="Python Programming course"
+                        class="course-image"
+                    >
+
+                    <div class="course-content">
+
+                        <span class="course-category">
+                            Programming
+                        </span>
+
+                        <h3>
+                            Python Programming
+                        </h3>
+
+                        <p>
+                            Master Python fundamentals,
+                            OOP, APIs and real-world projects.
+                        </p>
+
+                        <div class="course-meta">
+
+                            <span>⭐ 4.9</span>
+
+                            <span>10 Weeks</span>
+
+                        </div>
+
+                        <div class="course-footer">
+
+                            <strong>
+                                ₹9,999
+                            </strong>
+
+                            <a
+                                href="pages/course-details.html"
+                                class="btn btn-primary"
+                            >
+                                View Course
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Course 3 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="course-card">
+
+                    <img
+                        src="/assets/Images/uiux.jpeg"
+                        alt="UI UX Design course"
+                        class="course-image"
+                    >
+
+                    <div class="course-content">
+
+                        <span class="course-category">
+                            Design
+                        </span>
+
+                        <h3>
+                            UI/UX Design
+                        </h3>
+
+                        <p>
+                            Learn user research, wireframes,
+                            prototypes and modern UI design.
+                        </p>
+
+                        <div class="course-meta">
+
+                            <span>⭐ 4.7</span>
+
+                            <span>8 Weeks</span>
+
+                        </div>
+
+                        <div class="course-footer">
+
+                            <strong>
+                                ₹7,999
+                            </strong>
+
+                            <a
+                                href="pages/course-details.html"
+                                class="btn btn-primary"
+                            >
+                                View Course
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- View All Courses -->
+
+        <div class="text-center mt-5">
+
+            <a
+                href="pages/courses.html"
+                class="btn btn-outline-primary"
+            >
+                View All Courses
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Why Choose CareerConnect Section -->
+
+<section class="why-choose-section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="section-heading text-center">
+
+            <span class="section-badge">
+                Why CareerConnect
+            </span>
+
+            <h2>
+                Everything You Need to Grow
+            </h2>
+
+            <p>
+                Connect with opportunities, develop your skills,
+                and take control of your career journey.
+            </p>
+
+        </div>
+
+
+        <!-- Benefits -->
+
+        <div class="row g-4">
+
+            <!-- Benefit 1 -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        🎯
+                    </div>
+
+                    <h3>
+                        Career Focused
+                    </h3>
+
+                    <p>
+                        Discover opportunities and learning
+                        resources designed around your career goals.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Benefit 2 -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        💼
+                    </div>
+
+                    <h3>
+                        Job Opportunities
+                    </h3>
+
+                    <p>
+                        Explore relevant jobs from companies
+                        looking for skilled professionals.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Benefit 3 -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        📚
+                    </div>
+
+                    <h3>
+                        Industry Skills
+                    </h3>
+
+                    <p>
+                        Learn practical skills through
+                        industry-focused courses and projects.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Benefit 4 -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        🚀
+                    </div>
+
+                    <h3>
+                        Career Growth
+                    </h3>
+
+                    <p>
+                        Build confidence, gain skills and move
+                        closer to your career goals.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- How CareerConnect Works -->
+
+<section class="how-it-works">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="section-heading text-center">
+
+            <span class="section-badge">
+                Simple Process
+            </span>
+
+            <h2>
+                How CareerConnect Works
+            </h2>
+
+            <p>
+                Find opportunities, build your skills,
+                and take the next step in your career.
+            </p>
+
+        </div>
+
+
+        <!-- Steps -->
+
+        <div class="row g-4">
+
+            <!-- Step 1 -->
+            <div class="col-lg-4">
+
+                <div class="step-card">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <div class="step-icon">
+                        🔍
+                    </div>
+
+                    <h3>
+                        Search
+                    </h3>
+
+                    <p>
+                        Explore jobs and courses based on
+                        your skills, interests and career goals.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Step 2 -->
+            <div class="col-lg-4">
+
+                <div class="step-card">
+
+                    <div class="step-number">
+                        02
+                    </div>
+
+                    <div class="step-icon">
+                        📝
+                    </div>
+
+                    <h3>
+                        Apply or Enroll
+                    </h3>
+
+                    <p>
+                        Apply for jobs or enroll in courses
+                        that match your career requirements.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Step 3 -->
+            <div class="col-lg-4">
+
+                <div class="step-card">
+
+                    <div class="step-number">
+                        03
+                    </div>
+
+                    <div class="step-icon">
+                        🚀
+                    </div>
+
+                    <h3>
+                        Grow
+                    </h3>
+
+                    <p>
+                        Build practical skills, gain experience
+                        and move closer to your career goals.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Final CTA Section -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-content text-center">
+
+            <span class="cta-badge">
+                Your Career Journey Starts Here
+            </span>
+
+            <h2>
+                Ready to Take the Next Step?
+            </h2>
+
+            <p>
+                Discover new opportunities, build valuable skills,
+                and move closer to your career goals with CareerConnect.
+            </p>
+
+            <div class="cta-buttons">
+
+                <a
+                    href="pages/jobs.html"
+                    class="btn btn-light"
+                >
+                    Browse Jobs
+                </a>
+
+                <a
+                    href="pages/courses.html"
+                    class="btn btn-outline-light"
+                >
+                    Explore Courses
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- Brand -->
+            <div class="col-md-6">
+
+                <h5>CareerConnect</h5>
+
+                <p>
+                    Find jobs. Build skills. Grow your career.
+                </p>
+
+            </div>
+
+
+            <!-- Links -->
+            <div class="col-md-6 text-md-end">
+
+                <a href="index.html">Home</a>
+
+                <a href="pages/jobs.html">Jobs</a>
+
+                <a href="pages/courses.html">Courses</a>
+
+                <a href="pages/about.html">About</a>
+
+                <a href="pages/contact.html">Contact</a>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <div class="text-center">
+
+            <p class="copyright">
+                © 2026 CareerConnect. All rights reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>

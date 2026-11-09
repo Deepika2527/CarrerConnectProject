@@ -1,0 +1,589 @@
+/* Global Styling-universal */
+body {
+    font-family: Arial, sans-serif;
+    color: #172033;
+    background-color: #f8faff;
+}
+
+.navbar-brand {
+    color: #155eef;
+    font-size: 1.4rem;
+}
+.navbar-brand:hover {
+    color: #0d47a1;
+}
+.nav-link {
+    color: #172033;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #155eef;
+}
+
+.nav-link.active {
+    color: #155eef;
+    font-weight: 600;
+}
+.hero-section {
+    padding: 80px 0;
+    background: linear-gradient(
+        135deg,
+        #f8faff,
+        #eef4ff
+    );
+}
+.hero-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+
+    color: #155eef;
+    background-color: #e8f0ff;
+
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.hero-title {
+    font-size: 3.5rem;
+    line-height: 1.15;
+    font-weight: 700;
+    color: #172033;
+}
+.hero-title span {
+    color: #155eef;
+}
+.hero-text {
+    max-width: 550px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    color: #5f6b7a;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+.hero-search {
+    display: flex;
+    gap: 10px;
+
+    max-width: 600px;
+    padding: 8px;
+
+    background-color: white;
+    border: 1px solid #dce3ef;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 25px rgba(21, 94, 239, 0.08);
+}
+
+.hero-search .form-control {
+    border: none;
+    box-shadow: none;
+}
+
+.hero-search .form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.hero-buttons .btn {
+    padding: 11px 22px;
+    font-weight: 600;
+}
+
+.hero-image-wrapper {
+    text-align: center;
+}
+.hero-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+/* ================================
+   Statistics Section
+================================ */
+
+.stats-section {
+    padding: 50px 0;
+    background-color: white;
+    border-bottom: 1px solid #e5eaf2;
+}
+
+.stat-item h2 {
+    margin-bottom: 5px;
+
+    color: #155eef;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.stat-item p {
+    margin: 0;
+
+    color: #5f6b7a;
+    font-size: 0.95rem;
+}
+/* ================================
+   Featured Jobs Section
+================================ */
+
+.featured-jobs {
+    padding: 80px 0;
+    background-color: #f8faff;
+}
+
+.section-heading {
+    margin-bottom: 45px;
+}
+
+.section-badge {
+    display: inline-block;
+    margin-bottom: 10px;
+
+    color: #155eef;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.section-heading h2 {
+    margin-bottom: 10px;
+
+    color: #172033;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.section-heading p {
+    color: #5f6b7a;
+}
+
+
+/* Job Card */
+
+.job-card {
+    height: 100%;
+    padding: 25px;
+
+    background-color: white;
+    border: 1px solid #e1e7f0;
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(21, 94, 239, 0.1);
+}
+
+
+/* Card Header */
+
+.job-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #155eef;
+    background-color: #e8f0ff;
+
+    border-radius: 10px;
+
+    font-weight: 700;
+}
+
+
+/* Job Content */
+
+.job-card h3 {
+    margin-bottom: 6px;
+
+    color: #172033;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.company-name {
+    margin-bottom: 20px;
+
+    color: #5f6b7a;
+}
+
+
+/* Job Type */
+
+.job-type {
+    padding: 5px 10px;
+
+    color: #198754;
+    background-color: #e8f7ef;
+
+    border-radius: 20px;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+/* Job Information */
+
+.job-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    margin-bottom: 25px;
+
+    color: #5f6b7a;
+    font-size: 0.9rem;
+}
+
+
+/* Card Footer */
+
+.job-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #e5eaf2;
+
+    color: #7a8594;
+    font-size: 0.85rem;
+}
+
+.job-card-footer .btn {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+/* ================================
+   Featured Courses Section
+================================ */
+
+.featured-courses {
+    padding: 80px 0;
+    background-color: white;
+}
+
+
+/* Course Card */
+
+.course-card {
+    height: 100%;
+
+    overflow: hidden;
+
+    background-color: white;
+
+    border: 1px solid #e1e7f0;
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 30px rgba(21, 94, 239, 0.1);
+}
+
+
+/* Course Image */
+
+.course-image {
+    width: 100%;
+    height: auto;
+    /* display: block; */
+
+    object-fit: cover;
+}
+
+
+/* Course Content */
+
+.course-content {
+    padding: 25px;
+}
+
+.course-category {
+    color: #155eef;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.course-content h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #172033;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.course-content p {
+    color: #5f6b7a;
+
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+
+/* Course Meta */
+
+.course-meta {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    color: #5f6b7a;
+
+    font-size: 0.85rem;
+}
+
+
+/* Course Footer */
+
+.course-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #e5eaf2;
+}
+
+.course-footer strong {
+    color: #172033;
+
+    font-size: 1.1rem;
+}
+/* ================================
+   How It Works Section
+================================ */
+
+.how-it-works {
+    padding: 80px 0;
+    background-color: white;
+}
+
+
+/* Step Card */
+
+.step-card {
+    position: relative;
+
+    height: 100%;
+    padding: 35px 30px;
+
+    text-align: center;
+
+    background-color: #f8faff;
+
+    border: 1px solid #e1e7f0;
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 30px rgba(21, 94, 239, 0.1);
+}
+
+
+/* Step Number */
+
+.step-number {
+    position: absolute;
+
+    top: 15px;
+    right: 20px;
+
+    color: #dce7ff;
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+/* Step Icon */
+
+.step-icon {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto 20px;
+
+    background-color: #e8f0ff;
+
+    border-radius: 50%;
+
+    font-size: 1.8rem;
+}
+
+
+/* Step Content */
+
+.step-card h3 {
+    margin-bottom: 12px;
+
+    color: #172033;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.step-card p {
+    margin: 0;
+
+    color: #5f6b7a;
+
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+/* ================================
+   Final CTA Section
+================================ */
+
+.cta-section {
+    padding: 80px 0;
+
+    background: linear-gradient(
+        135deg,
+        #155eef,
+        #0d47a1
+    );
+}
+
+.cta-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.cta-badge {
+    display: inline-block;
+
+    margin-bottom: 15px;
+    padding: 7px 15px;
+
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+
+    border-radius: 50px;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.cta-content h2 {
+    margin-bottom: 15px;
+
+    color: white;
+
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.cta-content p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+
+    color: rgba(255, 255, 255, 0.9);
+
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cta-buttons .btn {
+    padding: 11px 24px;
+
+    font-weight: 600;
+}
+/* ================================
+   Footer
+================================ */
+
+.footer {
+    padding: 40px 0 20px;
+
+    background-color: #172033;
+
+    color: white;
+}
+
+.footer h5 {
+    margin-bottom: 8px;
+
+    color: white;
+
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.footer p {
+    margin: 0;
+
+    color: #aeb7c6;
+}
+
+.footer a {
+    margin-left: 20px;
+
+    color: #dce3ef;
+
+    text-decoration: none;
+
+    font-size: 0.9rem;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer hr {
+    margin: 30px 0 20px;
+
+    border-color: #3a4558;
+}
+
+.footer .copyright {
+    color: #8f9aaa;
+
+    font-size: 0.85rem;
+}
